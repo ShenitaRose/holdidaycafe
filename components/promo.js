@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import { CameraIcon } from '@heroicons/react/20/solid'
 
 export default function  Promo() {
@@ -39,17 +39,17 @@ export default function  Promo() {
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
+                  <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="images/illustrations/fof.jpg"
-                    alt="Whitney leaning against a railing on a downtown street"
+                    src="/images/illustrations/fof.jpg"
+                    alt="Cafe Illustration"
                     width={1184}
                     height={1376}
                   />
                 </div>
                 <figcaption className="mt-3 flex text-sm text-gray-500">
                   <CameraIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                  <span className="ml-2">Love at the Cafe</span>
+                  <span className="ml-2">Best Barista Award</span>
                 </figcaption>
               </figure>
             </div>
@@ -62,21 +62,17 @@ export default function  Promo() {
             </div>
             <div className="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                We Pride ourselves in providing the best services for ever last one of our customers.
+                We also provide a wide range of coffee so you are sure to find exactly what you are looking for.
               </p>
               <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
+                Every cup of coffee is hand brewed by a Barista that has been properly trained, so you are guaranteed a brew that
+                is tailored to you.
               </p>
               <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
+                If at any point you come to dislike the service provided, please let us know.
               </p>
-              <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
+              
               
             </div>
           </div>
