@@ -8,14 +8,14 @@ export default function Header() {
                 
             </div>
             <div className="shrink w-80 sm:order-2">
-                <Link href="/" className="font-bold uppercase text-3xl">The Eco Cafe</Link>
+                <Link href="/" className="font-bold uppercase text-4xl">The Eco Cafe</Link>
             </div>
             <div className="w-96 order-3 flex justify-center">
-                <div className="flex gap-6">
-                    <Link href="/">Home</Link>
-                    <Link href="/">Menu</Link>
-                    <Link href="/">Gallery</Link>
-                    <Link href="/">Contact</Link>
+                <div className="flex gap-6 ">
+                    <Link href="/" className="text-lg font-bold">Home</Link>
+                    <Link href="/menu" className="text-lg font-bold">Menu</Link>
+                    <Link href="/gallery" className="text-lg font-bold">Gallery</Link>
+                    <Link href="/contact" className="text-lg font-bold">Contact</Link>
                 </div>
             </div>
 
