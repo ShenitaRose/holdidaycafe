@@ -36,7 +36,7 @@ const incentives = [
                   Welcome to our cafe!
                 </h2>
               </div>
-              <div className="mx-auto mt-12 grid max-w-sm grid-cols-1 gap-y-10 gap-x-8 sm:max-w-none lg:grid-cols-3">
+              <div className="mx-auto mt-12 grid max-w-sm grid-cols-2 gap-y-10 gap-x-8 sm:max-w-none lg:grid-cols-4">
                 {incentives.map((incentive) => (
                   <div key={incentive.name} className="text-center sm:flex sm:text-left lg:block lg:text-center">
                     <div className="sm:flex-shrink-0">

@@ -13,8 +13,8 @@ export default function Section1() {
                 An Aromatic and Ambient experience
               </h2>
               <p className="mt-3 max-w-3xl text-lg text-gray-600">
-                Our patented padded snack sleeve construction protects your favorite treats from getting smooshed during
-                all-day adventures, long shifts at work, and tough travel schedules.
+                From the minute you step through the doors, the warm and inviting atmosphere is sure to keep you in a trance
+                of calm cool and collected vibes.
               </p>
             </div>
   
@@ -30,8 +30,7 @@ export default function Section1() {
                   />
                 </div>
                 <p className="mt-8 text-base text-gray-500">
-                  The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any
-                  combination of on-the-go treats that your heart desires. Yes, we did the math.
+                  23 Different brews surely will keep your tastebuds jumping. Try them all to experience a sensation like never befor!
                 </p>
               </div>
               <div>
@@ -45,8 +44,8 @@ export default function Section1() {
                   />
                 </div>
                 <p className="mt-8 text-base text-gray-500">
-                  Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready
-                  for even the most unexpected snack attacks and sharing needs.
+                  A excess of Flora lies in every cafe we run. Come enjoy a small cornucopia of nature within the walls
+                  of our cafe.
                 </p>
               </div>
               <div>
@@ -60,8 +59,7 @@ export default function Section1() {
                   />
                 </div>
                 <p className="mt-8 text-base text-gray-500">
-                  Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready
-                  for even the most unexpected snack attacks and sharing needs.
+                  Aroma that is bound to keep you in your seat.Get comfortable, curl up with a book and relax!
                 </p>
               </div>
               <div>
@@ -75,8 +73,7 @@ export default function Section1() {
                   />
                 </div>
                 <p className="mt-8 text-base text-gray-500">
-                  Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready
-                  for even the most unexpected snack attacks and sharing needs.
+                  Have a snack, a sandwich,a toffee,some cake..The coffee gets better when paired with something sweet
                 </p>
               </div>
             </div>
