@@ -4,7 +4,7 @@ import Header from "../components/header"
 
 const files = [
     {
-      title: 'IMG_4985.HEIC',
+      title: 'Cafe Interior',
       source:
         '/images/illustrations/interior3.jpg',
     },
@@ -53,12 +53,7 @@ const files = [
           focus on quality and reduce our impact. We are doing our best to delay the inevitable heat-death of the
           universe.
         </p>
-        <a
-          href="#"
-          className="mt-8 block w-full rounded-md border border-transparent bg-white py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
-        >
-          Read our story
-        </a>
+        
       </div>
     </div>
       <ul role="list" className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8 px-16 pt-16">
